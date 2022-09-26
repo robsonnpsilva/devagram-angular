@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BotaoComponent } from './compartilhado/botao/botao.component';
+import { CompartilhadoModule } from './compartilhado/compartilhado.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CompartilhadoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
